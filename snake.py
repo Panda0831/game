@@ -4,7 +4,7 @@ import random
 
 pygame.init()
 
-# Couleurs
+
 blanc = (255, 255, 255)
 jaune = (255, 255, 102)
 noir = (0, 0, 0)
@@ -12,22 +12,22 @@ rouge = (213, 50, 80)
 vert = (0, 255, 0)
 bleu = (50, 153, 213)
 
-# Dimensions de la fenêtre de jeu
+
 largeur = 300
 hauteur = 200
 
-# Initialisation de la fenêtre de jeu
+
 fenetre = pygame.display.set_mode((largeur, hauteur))
 pygame.display.set_caption('Snake Game')
 
-# Réglage du temps
+
 horloge = pygame.time.Clock()
 vitesse_snake = 8
 
-# Taille du snake
+
 taille_snake = 10
 
-# Police de texte
+
 police_score = pygame.font.SysFont("bahnschrift", 35)
 police_message = pygame.font.SysFont("comicsansms", 50)
 
